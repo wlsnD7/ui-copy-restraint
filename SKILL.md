@@ -1,9 +1,9 @@
 ---
-name: ui-copy-restraint
-description: "Use when creating Chinese or English product UI with restrained copy, or auditing redundant helper text, verbose buttons, repetitive placeholders, and internal implementation notes. Applies to requests to remove AI-like UI wording, 精简界面文案, or 多余提示."
+name: restraining-ui-text
+description: "Use when creating Chinese or English product UI with restrained text, or auditing redundant helper text, verbose buttons, repetitive placeholders, and internal implementation notes. Applies to requests to remove AI-like UI wording, 精简界面文案, 多余提示, or unnecessary UI copy."
 ---
 
-# UI Copy Restraint / UI 文案克制
+# Restraining UI Text / UI 文案克制
 
 Decide whether text needs to exist and when it should appear. Preserve information needed for the current task. Removing unnecessary text is a valid result; do not replace it with differently worded filler.
 

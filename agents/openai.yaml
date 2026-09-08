@@ -1,4 +1,4 @@
 interface:
-  display_name: "UI Copy Restraint / UI 文案克制"
-  short_description: "Trim UI copy safely / 精简中英文提示，保留必要操作信息"
-  default_prompt: "Use $ui-copy-restraint to audit unnecessary UI copy. Preserve the interface language and required information, and explain findings in my preferred language."
+  display_name: "Restraining UI Text / UI 文案克制"
+  short_description: "Trim UI text safely / 精简中英文提示，保留必要操作信息"
+  default_prompt: "Use $restraining-ui-text to audit unnecessary UI text. Preserve the interface language and required information, and explain findings in my preferred language."
