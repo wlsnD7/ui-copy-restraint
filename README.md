@@ -38,7 +38,7 @@ npx --yes skills@latest add wlsnD7/restraining-ui-text --skill restraining-ui-te
 
 Other coding agents use the same command with a different `--agent` value. See the [Skills CLI documentation](https://github.com/vercel-labs/skills#install-a-skill) and [supported agents](https://github.com/vercel-labs/skills#supported-agents). Being listed there does not mean this skill has been tested in that client. If it does not appear after install, reload the agent or start a new session and check the skills list.
 
-To install by hand, copy `SKILL.md`, `references/`, and `agents/` into a folder named `restraining-ui-text` in the agent's skills directory. Keep those files together. The skill has no runtime or external-service dependency; Node.js is only needed for the installer.
+To install by hand, copy `SKILL.md` and `agents/` into a folder named `restraining-ui-text` in the agent's skills directory. The skill has no runtime or external-service dependency; Node.js is only needed for the installer.
 
 ## Use
 
@@ -68,8 +68,6 @@ Checked with independent Chinese, English, and cross-language scenarios, plus a 
 
 ```text
 SKILL.md                    Shared agent instructions
-references/examples.md      Chinese examples
-references/examples.en.md   English and cross-language examples
 agents/openai.yaml          Codex display metadata
 README.md                   English guide
 README.zh-CN.md             中文指南

@@ -76,8 +76,6 @@ Keep required formats, units, limits, objects and consequences of significant ac
 
 Do not assume color, icons, or position replace text for every user. Placeholders do not replace persistent labels. If an input lacks a label, identify the problem instead of deleting its only identifier; add a suitable label when that repair is within scope.
 
-For boundary cases, read the relevant examples: [Chinese examples / 中文案例](references/examples.md) for Chinese copy, or [English examples](references/examples.en.md) for English copy and cross-language cases. Do not load both automatically or apply examples as a replacement dictionary.
-
 ## Output and verification
 
 For audit/fix decisions, use Delete, Shorten, Combine, Relocate, Keep, or Verify (删除、缩短、合并、移位、保留、待核实), localized to the conversation. Report worthwhile findings with location, original text, proposal, and specific evidence. State material uncertainty beside the item; do not invent AI probabilities, scores, or word-count targets. In prevent mode, deliver the requested UI or copy without sentence-by-sentence classifications.

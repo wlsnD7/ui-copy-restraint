@@ -38,7 +38,7 @@ npx --yes skills@latest add wlsnD7/restraining-ui-text --skill restraining-ui-te
 
 其他 coding agent 用同一条命令，把 `--agent` 换成对应标识即可。参数见 [Skills CLI 官方说明](https://github.com/vercel-labs/skills#install-a-skill)，更多工具见其[支持列表](https://github.com/vercel-labs/skills#supported-agents)。列表里能装，不代表本技能已在该客户端实测。如果安装后没有出现，请重新加载 agent 或开启新会话，并检查技能列表。
 
-手动安装：把 `SKILL.md`、`references/` 和 `agents/` 放到目标 agent 技能目录下的 `restraining-ui-text` 文件夹，并保持相对位置。技能本身不需要运行时或外部服务；上面的安装器才需要 Node.js。
+手动安装：把 `SKILL.md` 和 `agents/` 放到目标 agent 技能目录下的 `restraining-ui-text` 文件夹。技能本身不需要运行时或外部服务；上面的安装器才需要 Node.js。
 
 ## 使用
 
@@ -68,8 +68,6 @@ npx --yes skills@latest add wlsnD7/restraining-ui-text --skill restraining-ui-te
 
 ```text
 SKILL.md                    共享 agent 指令
-references/examples.md      中文案例
-references/examples.en.md   英文及跨语言案例
 agents/openai.yaml          Codex 展示信息
 README.md                   English guide
 README.zh-CN.md             中文指南
