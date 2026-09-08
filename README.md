@@ -14,7 +14,6 @@ Use it when buttons become feature lists, placeholders repeat labels, or every s
 | --- | --- | --- |
 | An identified project menu | Click here to edit this project | Edit |
 | A field already labelled Name | Please enter your name here | Remove the placeholder |
-| Track editor entry point | Edit track (anchors/all beats/characters) | Edit track |
 | A button that saves and publishes | Save and publish | Keep both actions |
 | An enforced upload restriction | PDF only, up to 20 MB | Keep the requirement |
 
